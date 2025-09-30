@@ -60,7 +60,7 @@ const App = () => {
 
     return (
         <div>
-            <h1>Calculator</h1>
+            <h1>Mukesh's calculator</h1>
             
             {/* Display Area */}
             <div className="color">
