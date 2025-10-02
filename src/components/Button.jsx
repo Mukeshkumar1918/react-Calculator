@@ -1,15 +1,11 @@
-
-import React from 'react';
-
-
 const Button = ({ value, onClick, className }) => {
     return (
-        <div 
+        <button 
             className={`calc-number ${className || ''}`}
             onClick={() => onClick(value)}
         >
             {value}
-        </div>
+        </button>
     );
 };
 
